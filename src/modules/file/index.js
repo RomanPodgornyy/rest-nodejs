@@ -39,7 +39,7 @@ router.post('/upload', upload.single('file'), async (req, res, next) => {
   }
 });
 
-router.get('/list/', async (req, res, next) => {
+router.get('/list', async (req, res, next) => {
   try {
     const { page, list_size } = req.query;
     const filesList = await fileService.getFilesList({ page, list_size });
