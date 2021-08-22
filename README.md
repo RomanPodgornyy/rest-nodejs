@@ -31,6 +31,6 @@ _Note: Require Node.js and npm package manager._
 + `/file/upload` - `POST` - adding a file.
 + `/file/list` - `GET` - getting a list of files.
 + `/file/delete/id` - `DELETE` - deleting the file at the specified `id`.
-+ `/file/id` - `GET` - получить файл по указанному `id`.
++ `/file/id` - `GET` - get the file at the specified `id`.
 + `/file/download/id` - `GET` - downloading the file at the specified `id`.
 + `/file/update/id` - `PUT` - updating the file at the specified `id`.
